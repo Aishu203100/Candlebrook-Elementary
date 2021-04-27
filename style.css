@@ -102,7 +102,7 @@ p {
 }
 
 input {
-    background-color: linear-gradient(45deg,#00e3c8 0%, #ff12cc 100%);
+    background-color: linear-gradient(170deg,#ef709b 0%, #fa9372 100%);
 }
 #videos{
    background: linear-gradient(#ff758c 0%,#ff7eb3 100%); 
@@ -116,4 +116,33 @@ iframe{
 #contact{
     text-align:center !important;
     float:none !important;
+}
+#myImg:hover {
+  opacity: 0.7;
+}
+
+
+#Activities{
+    background: linear-gradient(100deg,#ff1b6b 0%,#45caff 100%); 
+}
+#news{
+ background: linear-gradient(150deg,#40c9ff 0%,#e81cff 100%);    
+}
+#newstuff{
+ background: linear-gradient(45deg,#84ffc9,#aab2ff,#eca0ff) !important;
+ display: flex;
+ justify-content : center;
+ height:800px;
+}
+#campus{
+   background: linear-gradient(350deg,#ede342,#ff51eb);      
+}
+#contact{
+      background: linear-gradient(150deg,#f44369,#3e3b92); 
+    display: flex;
+ justify-content : center;
+ height:800px;
+}
+#contact iframe{
+    align-content: stretch;
 }
